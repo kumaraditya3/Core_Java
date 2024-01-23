@@ -7,7 +7,7 @@ public class ElseIf {
         if(age<12){
             System.out.println("Child");
         }
-        else if(age<18){
+        else if(age>=12 && age<18){
             System.out.println("Teenager");
         }
         else{
